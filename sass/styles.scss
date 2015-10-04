@@ -12,19 +12,13 @@ $background-color: #923517;
 h2 {
   font-family: 'Lato', sans-serif;
 }
-// .body {
-//   min-height: 100%;
-//   margin-bottom: -142px;
-// }
+
 .body {
   background-image: url('../assets/bg.jpg');
   background-image: center;
-  // width: 60%;
   min-height: 100%;
   margin-bottom: -40px;
-  // height: 830px;
   border: 1px solid #aaa;
-  // position: absolute;
 }
 
 .header {
@@ -32,7 +26,6 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   height: 80px;
-
 }
 
 .logo {
@@ -61,18 +54,10 @@ ul > li > h1 > a{
 
 }
 
-// #footer {
-//   height: 50px;
-//   background-color: #2C2C2E;
-//   margin-top: 700px;
-
-// }
-
 html, body {
   height: 100%;
+  text-align: center;
 }
-
-
 
 .body:after {
   content: "";
@@ -84,6 +69,17 @@ html, body {
 }
 
 .footer {
-  // width: 60%
-  background-color: #2C2C2E;;
+  background-color: #2C2C2E;
+  text-align: center;
+}
+
+.name {
+  text-align: center;
+}
+
+.row {
+  display: inline-block;
+  position: center;
+  border: 1px solid #aaa;
+  width: 80%;
 }

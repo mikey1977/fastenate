@@ -3781,7 +3781,7 @@ blockquote p {
 h2 {
   font-family: 'Lato', sans-serif; }
 
-/* line 19, stdin */
+/* line 16, stdin */
 .body {
   background-image: url("../assets/bg.jpg");
   background-image: center;
@@ -3789,51 +3789,64 @@ h2 {
   margin-bottom: -40px;
   border: 1px solid #aaa; }
 
-/* line 30, stdin */
+/* line 24, stdin */
 .header {
   background-image: url("../assets/header_bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 80px; }
 
-/* line 38, stdin */
+/* line 31, stdin */
 .logo {
   background-image: url("../assets/logo.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffffff; }
 
-/* line 45, stdin */
+/* line 38, stdin */
 .instagram_orange {
   background-image: url("../assets/instagram_orange.svg");
   background-repeat: no-repeat;
   height: 40px; }
 
-/* line 51, stdin */
+/* line 44, stdin */
 .instagram_grey {
   background-image: url("../assets/instagram_grey.svg");
   background-repeat: no-repeat;
   height: 40px; }
 
-/* line 57, stdin */
+/* line 50, stdin */
 ul > li > h1 > a {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: 12px; }
 
-/* line 71, stdin */
+/* line 57, stdin */
 html, body {
-  height: 100%; }
+  height: 100%;
+  text-align: center; }
 
-/* line 77, stdin */
+/* line 62, stdin */
 .body:after {
   content: "";
   display: block; }
 
-/* line 82, stdin */
+/* line 67, stdin */
 .footer, .body:after {
   height: 40px; }
 
-/* line 86, stdin */
+/* line 71, stdin */
 .footer {
-  background-color: #2C2C2E; }
+  background-color: #2C2C2E;
+  text-align: center; }
+
+/* line 76, stdin */
+.name {
+  text-align: center; }
+
+/* line 80, stdin */
+.row {
+  display: inline-block;
+  position: center;
+  border: 1px solid #aaa;
+  width: 80%; }
