@@ -3840,13 +3840,15 @@ html, body {
   background-color: #2C2C2E;
   text-align: center; }
 
-/* line 76, stdin */
-.name {
-  text-align: center; }
-
 /* line 80, stdin */
 .row {
   display: inline-block;
-  position: center;
-  border: 1px solid #aaa;
-  width: 80%; }
+  border: 1px solid #aaa; }
+
+/* line 88, stdin */
+.pics {
+  margin: 10px; }
+
+/* line 92, stdin */
+p {
+  font-family: 'Lato', sans-serif; }
