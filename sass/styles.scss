@@ -1,5 +1,89 @@
-body {
-  h1 {
-    background-color: #fff;
-  }
+@import 'partials/settings';
+@import 'foundation/components/grid';
+@import 'foundation/components/buttons';
+@import 'foundation/components/dropdown';
+@import 'foundation/components/icon-bar';
+@import 'foundation/components/top-bar';
+@import 'foundation/components/type';
+
+$background-color: #923517;
+
+
+h2 {
+  font-family: 'Lato', sans-serif;
+}
+// .body {
+//   min-height: 100%;
+//   margin-bottom: -142px;
+// }
+.body {
+  background-image: url('../assets/bg.jpg');
+  background-image: center;
+  // width: 60%;
+  min-height: 100%;
+  margin-bottom: -40px;
+  // height: 830px;
+  border: 1px solid #aaa;
+  // position: absolute;
+}
+
+.header {
+  background-image: url('../assets/header_bg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80px;
+
+}
+
+.logo {
+  background-image: url('../assets/logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+}
+
+.instagram_orange {
+  background-image: url('../assets/instagram_orange.svg');
+  background-repeat: no-repeat;
+  height: 40px;
+}
+
+.instagram_grey {
+  background-image: url('../assets/instagram_grey.svg');
+  background-repeat: no-repeat;
+  height: 40px;
+}
+
+ul > li > h1 > a{
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+
+}
+
+// #footer {
+//   height: 50px;
+//   background-color: #2C2C2E;
+//   margin-top: 700px;
+
+// }
+
+html, body {
+  height: 100%;
+}
+
+
+
+.body:after {
+  content: "";
+  display: block;
+}
+
+.footer, .body:after {
+  height: 40px;
+}
+
+.footer {
+  // width: 60%
+  background-color: #2C2C2E;;
 }
