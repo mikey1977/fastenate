@@ -3781,74 +3781,72 @@ blockquote p {
 h2 {
   font-family: 'Lato', sans-serif; }
 
-/* line 16, stdin */
+/* line 18, stdin */
 .body {
   background-image: url("../assets/bg.jpg");
-  background-image: center;
-  min-height: 100%;
-  margin-bottom: -40px;
-  border: 1px solid #aaa; }
+  min-height: 100%; }
 
-/* line 24, stdin */
+/* line 27, stdin */
 .header {
   background-image: url("../assets/header_bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 80px; }
 
-/* line 31, stdin */
+/* line 35, stdin */
 .logo {
   background-image: url("../assets/logo.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffffff; }
 
-/* line 38, stdin */
+/* line 57, stdin */
 .instagram_orange {
   background-image: url("../assets/instagram_orange.svg");
   background-repeat: no-repeat;
   height: 40px; }
 
-/* line 44, stdin */
+/* line 63, stdin */
 .instagram_grey {
   background-image: url("../assets/instagram_grey.svg");
   background-repeat: no-repeat;
   height: 40px; }
 
-/* line 50, stdin */
+/* line 71, stdin */
 ul > li > h1 > a {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: 12px; }
+  /* line 76, stdin */
+  ul > li > h1 > a > p {
+    display: block;
+    border: 1px solid orange;
+    color: red; }
 
-/* line 57, stdin */
+/* line 103, stdin */
 html, body {
   height: 100%;
   text-align: center; }
 
-/* line 62, stdin */
+/* line 108, stdin */
 .body:after {
   content: "";
   display: block; }
 
-/* line 67, stdin */
-.footer, .body:after {
-  height: 40px; }
-
-/* line 71, stdin */
-.footer {
-  background-color: #2C2C2E;
-  text-align: center; }
-
-/* line 80, stdin */
+/* line 126, stdin */
 .row {
   display: inline-block;
   border: 1px solid #aaa; }
 
-/* line 88, stdin */
-.pics {
-  margin: 10px; }
-
-/* line 92, stdin */
+/* line 138, stdin */
 p {
   font-family: 'Lato', sans-serif; }
+
+/* line 143, stdin */
+.name h1 a:hover {
+  color: orange; }
+
+/* line 148, stdin */
+#instagram:hover {
+  background-image: '';
+  background-image: url("../assets/instagram_orange.svg"); }

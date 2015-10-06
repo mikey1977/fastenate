@@ -13,13 +13,16 @@ h2 {
   font-family: 'Lato', sans-serif;
 }
 
+
+//wrap of body contents including header and footer
 .body {
   background-image: url('../assets/bg.jpg');
-  background-image: center;
+  // background-image: center;
   min-height: 100%;
-  margin-bottom: -40px;
-  border: 1px solid #aaa;
+  // margin-bottom: -40px;
+  // border: 1px solid #aaa;
 }
+
 
 .header {
   background-image: url('../assets/header_bg.svg');
@@ -28,6 +31,7 @@ h2 {
   height: 80px;
 }
 
+//fastenate logo
 .logo {
   background-image: url('../assets/logo.svg');
   background-repeat: no-repeat;
@@ -35,6 +39,21 @@ h2 {
   background-color: #ffffff;
 }
 
+
+// section > div > div > div > p{
+//   display: block;
+//   width: 100%;
+//   margin-top: 50px;
+
+// }
+// #plus a{
+//   display: block;
+//   background-color: green;
+//   width: 20px
+//   color: red;
+//   font-size: 15px;
+//   border: 1px solid orange;
+// }
 .instagram_orange {
   background-image: url('../assets/instagram_orange.svg');
   background-repeat: no-repeat;
@@ -45,15 +64,42 @@ h2 {
   background-image: url('../assets/instagram_grey.svg');
   background-repeat: no-repeat;
   height: 40px;
+
 }
 
+//styling of nav bar text
 ul > li > h1 > a{
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: 12px;
 
+  > p {
+    display: block;
+    border: 1px solid orange;
+    color: red;
+  }
+
+
+
+  // p {
+  //   display: block;
+  //   background-color: white;
+  //   width: 30px;
+  //   border: 1px solid orange;
+  // }
+
+  // #plus {
+  // display: block;
+  // background-color: green;
+  // width: 20px
+  // color: red;
+  // font-size: 15px;
+  // border: 1px solid orange;
+  // }
+
 }
 
+//setting for sticky footer
 html, body {
   height: 100%;
   text-align: center;
@@ -64,14 +110,14 @@ html, body {
   display: block;
 }
 
-.footer, .body:after {
-  height: 40px;
-}
+// .footer, .body:after {
+//   height: 40px;
+// }
 
-.footer {
-  background-color: #2C2C2E;
-  text-align: center;
-}
+// .footer {
+//   background-color: #2C2C2E;
+//   text-align: center;
+// }
 
 // .name {
 //   text-align: center;
@@ -85,10 +131,40 @@ html, body {
   // height: absolute;
 }
 
-.pics {
-  margin: 10px;
-}
+// .pics {
+//   margin: 10px;
+// }
 
 p{
   font-family: 'Lato', sans-serif;
 }
+
+//specific to text in nav bar
+.name h1 a:hover {
+  color: orange;
+}
+
+
+#instagram:hover {
+  background-image: '';
+  background-image: url('../assets/instagram_orange.svg');
+}
+
+
+// #facebook:hover {
+//   darken(grey, 50%);
+// }
+
+// entire footer responds to hover
+// #footHolder {
+//   background-image: url('../assets/instagram_grey.svg');
+//   background-repeat: no-repeat;
+//   height: 40px;
+
+//   &:hover {
+//     background-image: url('../assets/instagram_orange.svg');
+//     background-repeat: no-repeat;
+//     height: 40px;
+
+//   }
+// }
