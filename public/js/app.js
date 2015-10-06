@@ -13,24 +13,25 @@ $('p').width(500);
     method: "GET",
     success : function(data) {
       // console.log(data);
-      $('section').append('<ul>');
+      $('section').append('<div class="posts">');
       // $('<div>').append('<ul>')
       for (var i = 0; i < data.data.children.length; i++) {
 
-        console.log(data.data.children[i].data.thumbnail);
+        // console.log(data.data.children[i].data.thumbnail);
+          // console.log(data.data.children[i].data.title)
 
-        var pics = $('<li class="listData">', {
-        // var pugPics = $('<div class="small-12 medium-6 large-6 columns>', {
+        var pugPics = $('<div class="outsideBox"><div class="small-12 medium-6 large-6 columns">', {
           html : data.data.children[i].data.title
         });
-        var thumbs = '<img src="' + data.data.children[i].data.thumbnail + '">';
+        var thumbs = '<img src="' + data.data.children[i].data.thumbnail + '" class="images">';
+        var title = 'title: ' + data.data.children[i].data.title
         var divvy = '<div>';
         var author = 'author: ' + data.data.children[i].data.author;
-        var stuff = 'comments: ' + data.data.children[i].data.num_comments + ' : ' + 'score: ' + data.data.children[i].data.score;
+        var stuff = 'comments: ' + data.data.children[i].data.score;
 
-        $(pics).append(thumbs, divvy, author, divvy, stuff);
-        $('section > ul').append(
-          $(pics)
+        $(pugPics).append(thumbs, title, divvy, author, divvy, stuff);
+        $('section > div').append(
+          $(pugPics)
 
           );
         // $(pugPics).append(thumbs);

@@ -17,10 +17,10 @@ h2 {
 //wrap of body contents including header and footer
 .body {
   background-image: url('../assets/bg.jpg');
-  // background-image: center;
+  background-image: center;
   min-height: 100%;
-  // margin-bottom: -40px;
-  // border: 1px solid #aaa;
+  margin-bottom: -40px;
+  border: 1px solid #aaa;
 }
 
 
@@ -46,14 +46,16 @@ h2 {
 //   margin-top: 50px;
 
 // }
+
 // #plus a{
 //   display: block;
 //   background-color: green;
-//   width: 20px
+//   width: 20px;
 //   color: red;
 //   font-size: 15px;
 //   border: 1px solid orange;
 // }
+
 .instagram_orange {
   background-image: url('../assets/instagram_orange.svg');
   background-repeat: no-repeat;
@@ -110,14 +112,14 @@ html, body {
   display: block;
 }
 
-// .footer, .body:after {
-//   height: 40px;
-// }
+.footer, .body:after {
+  height: 40px;
+}
 
-// .footer {
-//   background-color: #2C2C2E;
-//   text-align: center;
-// }
+.footer {
+  background-color: #2C2C2E;
+  text-align: center;
+}
 
 // .name {
 //   text-align: center;
@@ -125,7 +127,7 @@ html, body {
 
 .row {
   display: inline-block;
-  // position: center;
+  position: center;
   border: 1px solid #aaa;
   // width: 90%;
   // height: absolute;
@@ -146,8 +148,9 @@ p{
 
 
 #instagram:hover {
-  background-image: '';
   background-image: url('../assets/instagram_orange.svg');
+  display: show;
+
 }
 
 
@@ -168,3 +171,29 @@ p{
 
 //   }
 // }
+
+// .listData {
+//   width: 100px;
+//   font-size: 20px;
+// }
+
+
+
+.outsideBox {
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+  margin: 20px;
+  width: 40%;
+  height: 40%;
+  border: 1px solid black;
+
+  &:hover {
+    border: 5px solid orange;
+  }
+}
+
+.images {
+  width: 100%;
+}

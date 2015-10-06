@@ -3784,7 +3784,10 @@ h2 {
 /* line 18, stdin */
 .body {
   background-image: url("../assets/bg.jpg");
-  min-height: 100%; }
+  background-image: center;
+  min-height: 100%;
+  margin-bottom: -40px;
+  border: 1px solid #aaa; }
 
 /* line 27, stdin */
 .header {
@@ -3800,53 +3803,81 @@ h2 {
   background-position: center;
   background-color: #ffffff; }
 
-/* line 57, stdin */
+/* line 59, stdin */
 .instagram_orange {
   background-image: url("../assets/instagram_orange.svg");
   background-repeat: no-repeat;
   height: 40px; }
 
-/* line 63, stdin */
+/* line 65, stdin */
 .instagram_grey {
   background-image: url("../assets/instagram_grey.svg");
   background-repeat: no-repeat;
   height: 40px; }
 
-/* line 71, stdin */
+/* line 73, stdin */
 ul > li > h1 > a {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: 12px; }
-  /* line 76, stdin */
+  /* line 78, stdin */
   ul > li > h1 > a > p {
     display: block;
     border: 1px solid orange;
     color: red; }
 
-/* line 103, stdin */
+/* line 105, stdin */
 html, body {
   height: 100%;
   text-align: center; }
 
-/* line 108, stdin */
+/* line 110, stdin */
 .body:after {
   content: "";
   display: block; }
 
-/* line 126, stdin */
+/* line 115, stdin */
+.footer, .body:after {
+  height: 40px; }
+
+/* line 119, stdin */
+.footer {
+  background-color: #2C2C2E;
+  text-align: center; }
+
+/* line 128, stdin */
 .row {
   display: inline-block;
+  position: center;
   border: 1px solid #aaa; }
 
-/* line 138, stdin */
+/* line 140, stdin */
 p {
   font-family: 'Lato', sans-serif; }
 
-/* line 143, stdin */
+/* line 145, stdin */
 .name h1 a:hover {
   color: orange; }
 
-/* line 148, stdin */
+/* line 150, stdin */
 #instagram:hover {
-  background-image: '';
-  background-image: url("../assets/instagram_orange.svg"); }
+  background-image: url("../assets/instagram_orange.svg");
+  display: show; }
+
+/* line 182, stdin */
+.outsideBox {
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+  margin: 20px;
+  width: 40%;
+  height: 40%;
+  border: 1px solid black; }
+  /* line 192, stdin */
+  .outsideBox:hover {
+    border: 5px solid orange; }
+
+/* line 197, stdin */
+.images {
+  width: 100%; }
