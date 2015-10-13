@@ -3803,6 +3803,12 @@ h2 {
   background-position: center;
   background-color: #ffffff; }
 
+/* line 43, stdin */
+section > div > div > div > p {
+  display: block;
+  width: 100%;
+  margin-top: 50px; }
+
 /* line 59, stdin */
 .instagram_orange {
   background-image: url("../assets/instagram_orange.svg");
@@ -3826,45 +3832,45 @@ ul > li > h1 > a {
     border: 1px solid orange;
     color: red; }
 
-/* line 105, stdin */
+/* line 86, stdin */
 html, body {
   height: 100%;
   text-align: center; }
 
-/* line 110, stdin */
+/* line 91, stdin */
 .body:after {
   content: "";
   display: block; }
 
-/* line 115, stdin */
+/* line 96, stdin */
 .footer, .body:after {
   height: 40px; }
 
-/* line 119, stdin */
+/* line 100, stdin */
 .footer {
   background-color: #2C2C2E;
   text-align: center; }
 
-/* line 128, stdin */
+/* line 105, stdin */
 .row {
   display: inline-block;
   position: center;
   border: 1px solid #aaa; }
 
-/* line 140, stdin */
+/* line 111, stdin */
 p {
   font-family: 'Lato', sans-serif; }
 
-/* line 145, stdin */
+/* line 116, stdin */
 .name h1 a:hover {
   color: orange; }
 
-/* line 150, stdin */
+/* line 120, stdin */
 #instagram:hover {
   background-image: url("../assets/instagram_orange.svg");
   display: show; }
 
-/* line 182, stdin */
+/* line 126, stdin */
 .outsideBox {
   background-color: white;
   display: inline-block;
@@ -3874,10 +3880,42 @@ p {
   width: 40%;
   height: 40%;
   border: 1px solid black; }
-  /* line 192, stdin */
+  /* line 137, stdin */
   .outsideBox:hover {
     border: 5px solid orange; }
 
-/* line 197, stdin */
-.images {
-  width: 100%; }
+/* line 142, stdin */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* line 147, stdin */
+.image {
+  width: 100%;
+  min-height: 100%;
+  max-height: auto;
+  margin: 10px;
+  padding: 10px; }
+
+/* line 162, stdin */
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Arial Rounded MT Bold";
+  color: blue;
+  line-height: 14px;
+  height: 28px;
+  overflow: hidden; }
+
+/* line 173, stdin */
+.author {
+  font-size: 12px;
+  font-family: "Arial";
+  font-weight: bold;
+  padding: 20px; }
+
+/* line 180, stdin */
+.stuff {
+  font-size: 10px;
+  font-family: "Arial";
+  font-weight: bold; }
