@@ -3781,96 +3781,107 @@ blockquote p {
 h2 {
   font-family: 'Lato', sans-serif; }
 
-/* line 18, stdin */
-.body {
-  background-image: url("../assets/bg.jpg");
-  background-image: center;
-  min-height: 100%;
-  margin-bottom: -40px;
-  border: 1px solid #aaa; }
+/* line 15, stdin */
+* {
+  margin: 0; }
 
-/* line 27, stdin */
+/* line 23, stdin */
 .header {
   background-image: url("../assets/header_bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 80px; }
 
-/* line 35, stdin */
+/* line 31, stdin */
 .logo {
   background-image: url("../assets/logo.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffffff; }
 
-/* line 43, stdin */
+/* line 39, stdin */
 section > div > div > div > p {
   display: block;
   width: 100%;
   margin-top: 50px; }
 
-/* line 59, stdin */
+/* line 55, stdin */
 .instagram_orange {
   background-image: url("../assets/instagram_orange.svg");
   background-repeat: no-repeat;
   height: 40px; }
 
-/* line 65, stdin */
+/* line 61, stdin */
 .instagram_grey {
   background-image: url("../assets/instagram_grey.svg");
   background-repeat: no-repeat;
   height: 40px; }
 
-/* line 73, stdin */
+/* line 69, stdin */
 ul > li > h1 > a {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: 12px; }
-  /* line 78, stdin */
+  /* line 74, stdin */
   ul > li > h1 > a > p {
     display: block;
     border: 1px solid orange;
     color: red; }
 
-/* line 86, stdin */
+/* line 82, stdin */
 html, body {
   height: 100%;
   text-align: center; }
 
-/* line 91, stdin */
+/* line 87, stdin */
+.body {
+  background-image: url("../assets/bg.jpg");
+  background-image: center;
+  min-height: 100%;
+  overflow: auto; }
+
+/* line 96, stdin */
+#bodyWrap {
+  overflow: auto;
+  padding-bottom: 40px; }
+
+/* line 101, stdin */
 .body:after {
   content: "";
   display: block; }
 
-/* line 96, stdin */
+/* line 106, stdin */
 .footer, .body:after {
   height: 40px; }
 
-/* line 100, stdin */
+/* line 110, stdin */
 .footer {
   background-color: #2C2C2E;
-  text-align: center; }
+  text-align: center;
+  margin-top: -40px;
+  height: 40px;
+  clear: both; }
 
-/* line 105, stdin */
+/* line 118, stdin */
 .row {
   display: inline-block;
   position: center;
   border: 1px solid #aaa; }
 
-/* line 111, stdin */
+/* line 124, stdin */
 p {
   font-family: 'Lato', sans-serif; }
 
-/* line 116, stdin */
+/* line 129, stdin */
 .name h1 a:hover {
   color: orange; }
 
-/* line 120, stdin */
+/* line 133, stdin */
 #instagram:hover {
   background-image: url("../assets/instagram_orange.svg");
   display: show; }
 
-/* line 126, stdin */
+/* line 139, stdin */
 .outsideBox {
   background-color: white;
   display: inline-block;
@@ -3878,26 +3889,18 @@ p {
   padding: 20px;
   margin: 20px;
   width: 40%;
-  height: 40%;
   border: 1px solid black; }
-  /* line 137, stdin */
+  /* line 150, stdin */
   .outsideBox:hover {
     border: 5px solid orange; }
+  /* line 154, stdin */
+  .outsideBox .images {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px; }
 
-/* line 142, stdin */
-img {
-  max-width: 100%;
-  height: auto; }
-
-/* line 147, stdin */
-.image {
-  width: 100%;
-  min-height: 100%;
-  max-height: auto;
-  margin: 10px;
-  padding: 10px; }
-
-/* line 162, stdin */
+/* line 184, stdin */
 .title {
   font-size: 14px;
   font-weight: bold;
@@ -3907,14 +3910,14 @@ img {
   height: 28px;
   overflow: hidden; }
 
-/* line 173, stdin */
+/* line 195, stdin */
 .author {
   font-size: 12px;
   font-family: "Arial";
   font-weight: bold;
   padding: 20px; }
 
-/* line 180, stdin */
+/* line 202, stdin */
 .stuff {
   font-size: 10px;
   font-family: "Arial";
